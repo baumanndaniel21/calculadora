@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
 </head>
+
 <body>
     <div id="calculadora">
         <img src="150.png" alt="Foto de uma calculadora">
         <input type="text" id="primeiroValor" placeholder="Digite o primeiro número">
         <input type="text" id="SegundoValor" placeholder="Digite o segundo número">
-        <button class="btn-adicao" onclick="">Adição</button>
-        <button class="btn-subtracao" onclick="">Subtração</button>
-        <button class="btn-multiplicacao" onclick="">Multiplicação</button>
-        <button class="btn-divisao" onclick="">Divisão</button>
+        <button class="btn-adicao" onclick="somar()">Adição</button>
+        <button class="btn-subtracao" onclick="subtrair()">Subtração</button>
+        <button class="btn-multiplicacao" onclick="multiplicar()">Multiplicação</button>
+        <button class="btn-divisao" onclick="dividir()">Divisão</button>
     </div>
+    <p id="resultado"></p>
+    <script src="script.js"></script>
 </body>
+
 </html>
